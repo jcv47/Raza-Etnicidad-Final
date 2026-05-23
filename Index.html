@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Raza y Etnicidad — Gestión de conceptos y relatos</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div class="layout">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <div class="sidebar-logo">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="14" cy="14" r="13" stroke="#D4A017" stroke-width="1.5"/>
+            <circle cx="14" cy="14" r="8" fill="#1B5E7B" opacity="0.3"/>
+            <circle cx="14" cy="14" r="4" fill="#D4A017"/>
+          </svg>
+          <span class="sidebar-title">Raza y Etnicidad</span>
+        </div>
+        <button class="sidebar-toggle" id="sidebarToggle" aria-label="Cerrar menú">&#x2715;</button>
+      </div>
+
+      <nav class="sidebar-nav">
+        <a class="nav-item active" data-section="home" href="#inicio">
+          <span class="nav-icon">&#9632;</span>
+          <span>Inicio</span>
+        </a>
+        <div class="nav-label">Textos del curso</div>
+        <a class="nav-item" data-section="t1" href="#t1">
+          <span class="nav-num">01</span>
+          <span>Desigualdades raciales en Cali</span>
+        </a>
+        <a class="nav-item" data-section="t2" href="#t2">
+          <span class="nav-num">02</span>
+          <span>Segregación educativa en Colombia</span>
+        </a>
+        <a class="nav-item" data-section="t3" href="#t3">
+          <span class="nav-num">03</span>
+          <span>Demando mi libertad</span>
+        </a>
+        <a class="nav-item" data-section="t4" href="#t4">
+          <span class="nav-num">04</span>
+          <span>El racismo: Recorridos conceptuales</span>
+        </a>
+        <a class="nav-item" data-section="t5" href="#t5">
+          <span class="nav-num">05</span>
+          <span>Minga: Pueblo Nasa</span>
+        </a>
+        <a class="nav-item" data-section="t6" href="#t6">
+          <span class="nav-num">06</span>
+          <span>Raza y etnicidad en Latinoamérica</span>
+        </a>
+        <a class="nav-item" data-section="t7" href="#t7">
+          <span class="nav-num">07</span>
+          <span>Biopólis, necrópolis, blackpolis</span>
+        </a>
+        <a class="nav-item" data-section="t8" href="#t8">
+          <span class="nav-num">08</span>
+          <span>Cuerpos y territorios vaciados</span>
+        </a>
+        <a class="nav-item" data-section="t9" href="#t9">
+          <span class="nav-num">09</span>
+          <span>Colonialidad del poder</span>
+        </a>
+        <a class="nav-item" data-section="t10" href="#t10">
+          <span class="nav-num">10</span>
+          <span>Cátedra de Estudios Afrocolombianos</span>
+        </a>
+        <a class="nav-item" data-section="t11" href="#t11">
+          <span class="nav-num">11</span>
+          <span>Tejiendo de otro modo</span>
+        </a>
+        <a class="nav-item" data-section="t12" href="#t12">
+          <span class="nav-num">12</span>
+          <span>Liberación de la madre tierra</span>
+        </a>
+        <div class="nav-label">Herramientas</div>
+        <a class="nav-item" data-section="glosario" href="#glosario">
+          <span class="nav-icon">&#9670;</span>
+          <span>Glosario de conceptos</span>
+        </a>
+      </nav>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="main" id="main">
+
+      <div class="topbar">
+        <button class="menu-btn" id="menuBtn" aria-label="Abrir menú">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="breadcrumb" id="breadcrumb">Inicio</div>
+      </div>
+
+      <!-- HOME -->
+      <section class="section active" id="section-home">
+        <div class="hero">
+          <div class="hero-badge">Curso universitario</div>
+          <h1 class="hero-title">Raza y Etnicidad</h1>
+          <p class="hero-subtitle">Sistema de gestión de conceptos y relatos de los temas visitados en el curso. Navega cada texto, explora sus ideas clave y comprende los debates centrales sobre raza, identidad y desigualdad en América Latina.</p>
+          <div class="hero-meta">
+            <span>Juan Camilo Victoria Cobo - A00412499</span>
+            <span>Universidad Icesi</span>
+          </div>
+        </div>
+
+        <div class="stats-row">
+          <div class="stat-card">
+            <span class="stat-num">12</span>
+            <span class="stat-label">Textos analizados</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">60+</span>
+            <span class="stat-label">Conceptos clave</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">5</span>
+            <span class="stat-label">Ejes temáticos</span>
+          </div>
+        </div>
+
+        <h2 class="section-heading">Ejes temáticos del curso</h2>
+        <div class="ejes-grid">
+          <div class="eje-card" style="--eje-color: #1B5E7B;">
+            <div class="eje-icon">&#9670;</div>
+            <h3>Raza y poder</h3>
+            <p>Colonialidad, eurocentrismo y estructuras de dominación racial en América Latina y Colombia.</p>
+          </div>
+          <div class="eje-card" style="--eje-color: #2E8B57;">
+            <div class="eje-icon">&#9670;</div>
+            <h3>Territorio y vida</h3>
+            <p>Biopoder, necropolítica, defensa del territorio indígena y afrodescendiente frente al Estado.</p>
+          </div>
+          <div class="eje-card" style="--eje-color: #D4A017;">
+            <div class="eje-icon">&#9670;</div>
+            <h3>Resistencia y libertad</h3>
+            <p>Estrategias de resistencia de mujeres negras, pueblos indígenas y comunidades afro en la colonia y el presente.</p>
+          </div>
+          <div class="eje-card" style="--eje-color: #0D2B45;">
+            <div class="eje-icon">&#9670;</div>
+            <h3>Desigualdad estructural</h3>
+            <p>Segregación educativa, brechas de ingreso, pobreza y movilidad social por raza en Colombia.</p>
+          </div>
+          <div class="eje-card" style="--eje-color: #1B5E7B;">
+            <div class="eje-icon">&#9670;</div>
+            <h3>Epistemologías del sur</h3>
+            <p>Feminismo descolonial, saberes propios, interculturalidad y crítica al conocimiento eurocéntrico.</p>
+          </div>
+        </div>
+
+        <h2 class="section-heading">Todos los textos</h2>
+        <div class="textos-grid">
+          <div class="texto-card" onclick="navigate('t1')">
+            <span class="texto-num">01</span>
+            <div class="texto-info">
+              <h4>Desigualdades raciales en Cali</h4>
+              <p>Urrea-Giraldo, Viáfara López et al.</p>
+            </div>
+            <span class="texto-arrow">&#8594;</span>
+          </div>
+          <div class="texto-card" onclick="navigate('t2')">
+            <span class="texto-num">02</span>
+            <div class="texto-info">
+              <h4>Segregación educativa en Colombia</h4>
+              <p>Jaramillo-Echeverri y Álvarez (2023)</p>
+            </div>
+            <span class="texto-arrow">&#8594;</span>
+          </div>
+          <div class="texto-card" onclick="navigate('t3')">
+            <span class="texto-num">03</span>
+            <div class="texto-info">
+              <h4>Demando mi libertad</h4>
+              <p>Vergara Figueroa y Cosme Puntiel</p>
+            </div>
+            <span class="texto-arrow">&#8594;</span>
+          </div>
+          <div class="texto-card" onclick="navigate('t4')">
+            <span class="texto-num">04</span>
+            <div class="texto-info">
+              <h4>El racismo — Recorridos conceptuales</h4>
+              <p>Gall, Iturriaga, Morales y Rodríguez</p>
+            </div>
+            <span class="texto-arrow">&#8594;</span>
+          </div>
+          <div class="texto-card" onclick="navigate('t5')">
+            <span class="texto-num">05</span>
+            <div class="texto-info">
+              <h4>Minga — Plan SEIP Pueblo Nasa</h4>
+              <p>CRIC / PEBI (2019-2022)</p>
+            </div>
+            <span class="texto-arrow">&#8594;</span>
+          </div>
+          <div class="texto-card" onclick="navigate('t6')">
+            <span class="texto-num">06</span>
+            <div class="texto-info">
+              <h4>Raza y etnicidad en Latinoamérica</h4>
+              <p>Peter Wade (2000)</p>
+            </div>
+            <span class="texto-arrow">&#8594;</span>
+          </div>
+          <div class="texto-card" onclick="navigate('t7')">
+            <span class="texto-num">07</span>
+            <div class="texto-info">
+              <h4>Biopólis, necrópolis, blackpolis</h4>
+              <p>Jaime Amparo Alves</p>
+            </div>
+            <span class="texto-arrow">&#8594;</span>
+          </div>
+          <div class="texto-card" onclick="navigate('t8')">
+            <span class="texto-num">08</span>
+            <div class="texto-info">
+              <h4>Cuerpos y territorios vaciados</h4>
+              <p>Aurora Vergara Figueroa</p>
+            </div>
+            <span class="texto-arrow">&#8594;</span>
+          </div>
+          <div class="texto-card" onclick="navigate('t9')">
+            <span class="texto-num">09</span>
+            <div class="texto-info">
+              <h4>Colonialidad del poder</h4>
+              <p>Aníbal Quijano</p>
+            </div>
+            <span class="texto-arrow">&#8594;</span>
+          </div>
+          <div class="texto-card" onclick="navigate('t10')">
+            <span class="texto-num">10</span>
+            <div class="texto-info">
+              <h4>Cátedra de Estudios Afrocolombianos</h4>
+              <p>MEN (2010)</p>
+            </div>
+            <span class="texto-arrow">&#8594;</span>
+          </div>
+          <div class="texto-card" onclick="navigate('t11')">
+            <span class="texto-num">11</span>
+            <div class="texto-info">
+              <h4>Tejiendo de otro modo</h4>
+              <p>Espinosa Miñoso et al. (2014)</p>
+            </div>
+            <span class="texto-arrow">&#8594;</span>
+          </div>
+          <div class="texto-card" onclick="navigate('t12')">
+            <span class="texto-num">12</span>
+            <div class="texto-info">
+              <h4>Liberación de la madre tierra</h4>
+              <p>Vargas Reyes y Ariza Santamaría (2019)</p>
+            </div>
+            <span class="texto-arrow">&#8594;</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- TEXTO 1 -->
+      <section class="section" id="section-t1">
+        <div class="texto-header" style="--th-color: #1B5E7B;">
+          <span class="texto-header-num">01</span>
+          <div>
+            <h1>Desigualdades raciales en Colombia</h1>
+            <p class="texto-authors">Fernando Urrea-Giraldo · Carlos Augusto Viáfara López · Héctor Fabio Ramírez · Waldor Botero Arias</p>
+            <p class="texto-context">Análisis sociodemográfico — Cali y Valle del Cauca</p>
+          </div>
+        </div>
+        <div class="content-grid">
+          <div class="content-main">
+            <div class="relato-block">
+              <h2>¿De qué trata?</h2>
+              <p>Este texto examina cómo la raza y la etnicidad determinan las condiciones de vida, los niveles de pobreza y el acceso a ingresos en Cali y el departamento del Valle del Cauca. A partir de datos sociodemográficos, los autores demuestran que las desigualdades entre grupos raciales no son accidentales ni fruto de diferencias culturales individuales, sino el resultado de estructuras históricas de exclusión que se reproducen sistemáticamente.</p>
+              <p>Cali es uno de los contextos más importantes para estudiar la raza en Colombia: tiene una de las mayores concentraciones de población afrodescendiente del país, lo que convierte a la ciudad en un laboratorio social para entender cómo operan las brechas raciales en el mercado laboral, en el acceso a servicios y en la movilidad social.</p>
+            </div>
+
+            <div class="relato-block">
+              <h2>Argumento central</h2>
+              <p>La pobreza en Colombia tiene color. Las personas afrodescendientes e indígenas experimentan mayores tasas de pobreza, menores ingresos y peores condiciones de vida en comparación con la población mestiza o blanca, incluso cuando se controlan variables como nivel educativo o sector económico. Esto apunta a la existencia de un mercado de trabajo racializado donde la discriminación opera de manera estructural y no solo individual.</p>
+            </div>
+
+            <div class="relato-block">
+              <h2>Relato ilustrativo</h2>
+              <blockquote>
+                Imagina dos personas en Cali con el mismo nivel de estudios universitarios y el mismo sector de trabajo: una mestiza y una afrodescendiente. Los datos muestran que, en promedio, la persona afrodescendiente recibirá un salario menor y tendrá menos probabilidades de acceder a cargos directivos. Esta diferencia no puede explicarse por "mérito" o "esfuerzo" — es el racismo operando como estructura.
+              </blockquote>
+            </div>
+          </div>
+          <div class="content-side">
+            <div class="conceptos-card">
+              <h3>Conceptos clave</h3>
+              <div class="concepto-item">
+                <span class="concepto-tag">Desigualdad racial</span>
+                <p>Diferencias sistemáticas en bienestar, ingreso y acceso entre grupos raciales, producidas por estructuras históricas y no por diferencias naturales.</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">Mercado de trabajo racializado</span>
+                <p>Mercado laboral donde la raza determina las oportunidades, el salario y los límites del ascenso social, más allá de la calificación individual.</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">Sociodemografía</span>
+                <p>Estudio de poblaciones que combina variables sociales (raza, clase, género) con datos cuantitativos (ingresos, pobreza, educación).</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">Brecha racial de ingresos</span>
+                <p>Diferencia estadística entre los ingresos de grupos raciales distintos, que persiste incluso controlando otras variables socioeconómicas.</p>
+              </div>
+            </div>
+            <div class="datos-card">
+              <h3>Datos para recordar</h3>
+              <ul>
+                <li>Cali tiene una de las mayores concentraciones afrodescendientes de Colombia</li>
+                <li>Las brechas de ingreso racial persisten incluso con igual nivel educativo</li>
+                <li>El Valle del Cauca es uno de los departamentos con mayor diversidad étnico-racial del país</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TEXTO 2 -->
+      <section class="section" id="section-t2">
+        <div class="texto-header" style="--th-color: #2E8B57;">
+          <span class="texto-header-num">02</span>
+          <div>
+            <h1>Segregación educativa en Colombia</h1>
+            <p class="texto-authors">Juliana Jaramillo-Echeverri · Andrés Álvarez</p>
+            <p class="texto-context">Cuadernos de Historia Económica, Núm. 58 — Junio, 2023</p>
+          </div>
+        </div>
+        <div class="content-grid">
+          <div class="content-main">
+            <div class="relato-block">
+              <h2>¿De qué trata?</h2>
+              <p>Este artículo investiga si las élites históricas colombianas han logrado reproducir su posición privilegiada a través del tiempo, usando como indicador los apellidos étnicos e históricos que aparecen en los registros universitarios. La pregunta es profunda: ¿el sistema educativo colombiano produce movilidad social real, o es un mecanismo que perpetúa los privilegios de quienes ya estaban arriba?</p>
+              <p>Los autores rastrean apellidos asociados a élites coloniales, indígenas y afrodescendientes para medir su presencia en la educación superior a lo largo del tiempo, revelando patrones de persistencia y exclusión que trascienden generaciones.</p>
+            </div>
+
+            <div class="relato-block">
+              <h2>Argumento central</h2>
+              <p>La segregación educativa en Colombia no es solo un problema del presente: tiene raíces coloniales profundas. Los apellidos de élites históricas siguen sobrerrepresentados en las universidades más prestigiosas, mientras que los apellidos de origen étnico (indígenas, afrodescendientes) están subrepresentados. Esto sugiere que la educación, lejos de romper la desigualdad, la reproduce y legitima.</p>
+            </div>
+
+            <div class="relato-block">
+              <h2>Relato ilustrativo</h2>
+              <blockquote>
+                Un apellido no es solo un nombre: es un marcador de historia, clase y raza. En Colombia, si tienes un apellido de origen español-colonial, estadísticamente tienes más probabilidades de llegar a una universidad de élite que si llevas un apellido indígena o afro. Esta diferencia no habla de esfuerzo individual — habla de siglos de acceso desigual a la riqueza, la tierra y el conocimiento.
+              </blockquote>
+            </div>
+          </div>
+          <div class="content-side">
+            <div class="conceptos-card">
+              <h3>Conceptos clave</h3>
+              <div class="concepto-item">
+                <span class="concepto-tag">Persistencia de élites</span>
+                <p>Fenómeno por el cual las familias con posiciones privilegiadas en el pasado siguen manteniéndolas generación tras generación.</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">Apellidos étnicos</span>
+                <p>Apellidos que funcionan como marcadores de origen étnico o racial, usados para rastrear movilidad social histórica.</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">Segregación educativa</span>
+                <p>Separación sistemática de grupos raciales o socioeconómicos dentro del sistema educativo, que reproduce desigualdades.</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">Movilidad social intergeneracional</span>
+                <p>Capacidad de una persona para ascender o descender en la escala social respecto a la posición de sus padres y abuelos.</p>
+              </div>
+            </div>
+            <div class="datos-card">
+              <h3>Datos para recordar</h3>
+              <ul>
+                <li>Los apellidos funcionan como proxies de clase y etnicidad en la historia colombiana</li>
+                <li>La educación superior puede reproducir jerarquías coloniales en lugar de romperlas</li>
+                <li>El estudio combina historia económica con sociología racial</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TEXTO 3 -->
+      <section class="section" id="section-t3">
+        <div class="texto-header" style="--th-color: #D4A017;">
+          <span class="texto-header-num">03</span>
+          <div>
+            <h1>Demando mi libertad</h1>
+            <p class="texto-authors">Aurora Vergara Figueroa · Carmen Luz Cosme Puntiel (eds.)</p>
+            <p class="texto-context">Mujeres negras y sus estrategias de resistencia — Nueva Granada, Venezuela y Cuba, 1700–1800. Universidad Icesi, 2ª ed. 2021</p>
+          </div>
+        </div>
+        <div class="content-grid">
+          <div class="content-main">
+            <div class="relato-block">
+              <h2>¿De qué trata?</h2>
+              <p>Este libro recopila y analiza historias de mujeres negras esclavizadas que, durante los siglos XVIII y XIX, emprendieron acciones legales, escaparon, negociaron y resistieron de múltiples maneras para conquistar su libertad. El texto se centra en las colonias españolas de la Nueva Granada (actual Colombia), Venezuela y Cuba, mostrando cómo estas mujeres no eran víctimas pasivas sino agentes activas de su propia liberación.</p>
+              <p>La obra es pionera porque recupera voces históricamente silenciadas y las coloca en el centro del análisis: las mujeres negras son protagonistas, no solo objetos de estudio.</p>
+            </div>
+
+            <div class="relato-block">
+              <h2>Argumento central</h2>
+              <p>Las mujeres negras esclavizadas desarrollaron estrategias de resistencia sofisticadas y diversas: desde demandas judiciales ante autoridades coloniales hasta la conformación de redes de solidaridad, el uso del derecho canónico y la fuga. Estas acciones demuestran una agencia histórica que ha sido negada o invisibilizada por la historiografía tradicional. La libertad no les fue dada: fue demandada, negociada y conquistada.</p>
+            </div>
+
+            <div class="relato-block">
+              <h2>Relato ilustrativo</h2>
+              <blockquote>
+                En los archivos coloniales aparecen documentos sorprendentes: mujeres negras esclavizadas que se presentan ante tribunales coloniales y demandan su libertad o la de sus hijos. Conocen las leyes, las usan, las manipulan. Una mujer sin derechos formales navega un sistema jurídico hostil y, en algunos casos, lo vence. Este es el tipo de historia que el texto recupera y celebra.
+              </blockquote>
+            </div>
+          </div>
+          <div class="content-side">
+            <div class="conceptos-card">
+              <h3>Conceptos clave</h3>
+              <div class="concepto-item">
+                <span class="concepto-tag">Resistencia</span>
+                <p>Conjunto de acciones individuales y colectivas con que los grupos dominados responden, subvierten o escapan de los sistemas de opresión.</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">Agencia histórica</span>
+                <p>Capacidad de los sujetos subalternos de actuar, decidir y transformar sus condiciones de vida, incluso bajo condiciones de opresión extrema.</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">Esclavización</span>
+                <p>Término preferido al de "esclavitud" porque enfatiza que es un acto cometido por unos sobre otros, no una condición natural.</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">Interseccionalidad</span>
+                <p>Marco que reconoce cómo la raza, el género y la clase se entrecruzan produciendo experiencias de opresión específicas y únicas.</p>
+              </div>
+            </div>
+            <div class="datos-card">
+              <h3>Datos para recordar</h3>
+              <ul>
+                <li>El texto recupera voces de mujeres negras en archivos coloniales (siglos XVIII-XIX)</li>
+                <li>Abarca tres territorios: Nueva Granada, Venezuela y Cuba</li>
+                <li>Es una publicación de la Universidad Icesi (Cali)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TEXTO 4 -->
+      <section class="section" id="section-t4">
+        <div class="texto-header" style="--th-color: #0D2B45;">
+          <span class="texto-header-num">04</span>
+          <div>
+            <h1>El racismo — Recorridos conceptuales e históricos</h1>
+            <p class="texto-authors">Olivia Gall · Eugenia Iturriaga · Diego Morales · Jimena Rodríguez</p>
+            <p class="texto-context">Análisis conceptual e histórico del racismo como fenómeno social</p>
+          </div>
+        </div>
+        <div class="content-grid">
+          <div class="content-main">
+            <div class="relato-block">
+              <h2>¿De qué trata?</h2>
+              <p>Este texto hace un recorrido histórico y conceptual sobre el racismo: ¿qué es exactamente? ¿Cuándo surge? ¿Cómo ha cambiado a lo largo del tiempo? ¿Qué formas adopta hoy? Los autores rastrean el racismo desde sus formas explícitas y biológicas del siglo XIX hasta sus manifestaciones más sutiles y estructurales del presente.</p>
+              <p>El libro funciona como una caja de herramientas teórica: define los conceptos, traza genealogías, muestra debates y ofrece un panorama amplio que sirve de base para entender los otros textos del curso.</p>
+            </div>
+
+            <div class="relato-block">
+              <h2>Argumento central</h2>
+              <p>El racismo no es una opinión personal ni un defecto de carácter: es un sistema de creencias, prácticas e instituciones que históricamente ha clasificado a los seres humanos en jerarquías basadas en características físicas o culturales, y ha usado esas jerarquías para justificar la dominación, la explotación y el exterminio. Entender el racismo requiere rastrear su historia y sus transformaciones, no solo condenarlo moralmente.</p>
+            </div>
+
+            <div class="relato-block">
+              <h2>Relato ilustrativo</h2>
+              <blockquote>
+                El racismo del siglo XIX decía abiertamente que algunas razas eran inferiores por biología. El del siglo XXI dice "yo no soy racista, pero..." y luego reproduce las mismas jerarquías. Cambió el lenguaje, cambió la forma — pero la estructura de desigualdad persiste. Por eso necesitamos conceptos precisos: para ver lo que el sentido común no quiere ver.
+              </blockquote>
+            </div>
+          </div>
+          <div class="content-side">
+            <div class="conceptos-card">
+              <h3>Conceptos clave</h3>
+              <div class="concepto-item">
+                <span class="concepto-tag">Racismo</span>
+                <p>Sistema de clasificación jerárquica de grupos humanos basado en características físicas o culturales, que produce y justifica desigualdades.</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">Racismo biológico</span>
+                <p>Forma histórica del racismo que afirmaba diferencias naturales e innatas entre razas para justificar jerarquías y dominación.</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">Racismo estructural</span>
+                <p>Racismo incrustado en leyes, políticas e instituciones que produce desigualdades raciales incluso sin intención discriminatoria explícita.</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">Raza como construcción social</span>
+                <p>La raza no es una categoría biológica real sino una construcción histórica y política usada para ordenar y dominar a las sociedades.</p>
+              </div>
+            </div>
+            <div class="datos-card">
+              <h3>Datos para recordar</h3>
+              <ul>
+                <li>El racismo tiene historia: no siempre fue igual ni existió siempre</li>
+                <li>Sus formas cambian, pero sus efectos de jerarquización persisten</li>
+                <li>La biología moderna niega la existencia de razas humanas como hecho natural</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TEXTO 5 -->
+      <section class="section" id="section-t5">
+        <div class="texto-header" style="--th-color: #2E8B57;">
+          <span class="texto-header-num">05</span>
+          <div>
+            <h1>Minga por la defensa de la vida</h1>
+            <p class="texto-authors">Consejo Regional Indígena del Cauca — CRIC / PEBI</p>
+            <p class="texto-context">Plan Cuatrienal SEIP 2019–2022 — Pueblo Nasa, Cauca, Colombia</p>
+          </div>
+        </div>
+        <div class="content-grid">
+          <div class="content-main">
+            <div class="relato-block">
+              <h2>¿De qué trata?</h2>
+              <p>Este documento es el plan educativo del pueblo Nasa del Cauca, elaborado por el Consejo Regional Indígena del Cauca (CRIC) y su Programa de Educación Bilingüe Intercultural (PEBI). Es un texto de planificación política y educativa que expresa la visión del pueblo Nasa sobre cómo debe ser su sistema propio de educación: uno que nace de sus territorios, sus lenguas y su cosmovisión, no del Estado colombiano.</p>
+              <p>La palabra Minga —trabajo colectivo, acción comunitaria— da nombre a todo el proyecto: la educación es una tarea colectiva de toda la comunidad, no solo de maestros o instituciones.</p>
+            </div>
+
+            <div class="relato-block">
+              <h2>Argumento central</h2>
+              <p>Los pueblos indígenas tienen el derecho y la capacidad de construir sus propios sistemas educativos. El SEIP (Sistema Educativo Indígena Propio) del pueblo Nasa no es una adaptación del currículo estatal: es una propuesta pedagógica y política radicalmente diferente, que parte del territorio, la lengua (nasa yuwe), los principios espirituales y las necesidades de la comunidad. La educación propia es un acto de soberanía y resistencia.</p>
+            </div>
+
+            <div class="relato-block">
+              <h2>Relato ilustrativo</h2>
+              <blockquote>
+                En el Cauca, un niño nasa aprende en su lengua, en su territorio, con su comunidad. No estudia la historia de Colombia desde el centro — estudia la historia de su pueblo desde adentro. La escuela no está separada del monte, del ritual, de la minga. Esta es la apuesta del SEIP: una educación que no coloniza, sino que libera.
+              </blockquote>
+            </div>
+          </div>
+          <div class="content-side">
+            <div class="conceptos-card">
+              <h3>Conceptos clave</h3>
+              <div class="concepto-item">
+                <span class="concepto-tag">Minga</span>
+                <p>Tradición de trabajo comunitario y colectivo de los pueblos andinos, resignificada como acción política y educativa de resistencia.</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">SEIP</span>
+                <p>Sistema Educativo Indígena Propio: modelo educativo diseñado por y para comunidades indígenas, basado en sus lenguas, territorios y cosmovisiones.</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">Interculturalidad</span>
+                <p>Relación entre culturas diversas basada en el diálogo, el respeto y la reciprocidad, no en la jerarquización o asimilación de unas por otras.</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">Educación propia</span>
+                <p>Propuesta pedagógica indígena que parte del territorio, la lengua y la comunidad, en contraste con el currículo estatal homogeneizante.</p>
+              </div>
+            </div>
+            <div class="datos-card">
+              <h3>Datos para recordar</h3>
+              <ul>
+                <li>El pueblo Nasa habita principalmente en el departamento del Cauca</li>
+                <li>El CRIC es una de las organizaciones indígenas más antiguas de Colombia (1971)</li>
+                <li>El NASA YUWE es la lengua propia del pueblo Nasa</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TEXTO 6 -->
+      <section class="section" id="section-t6">
+        <div class="texto-header" style="--th-color: #1B5E7B;">
+          <span class="texto-header-num">06</span>
+          <div>
+            <h1>Raza y etnicidad en Latinoamérica</h1>
+            <p class="texto-authors">Peter Wade</p>
+            <p class="texto-context">Ediciones Abya-Yala, 2000</p>
+          </div>
+        </div>
+        <div class="content-grid">
+          <div class="content-main">
+            <div class="relato-block">
+              <h2>¿De qué trata?</h2>
+              <p>Este libro del antropólogo británico Peter Wade es una introducción panorámica al estudio de la raza y la etnicidad en América Latina. Wade examina cómo estas categorías fueron construidas históricamente, cómo funcionan en la vida social y política, y cómo se relacionan con procesos de mestizaje, identidad nacional y desigualdad.</p>
+              <p>El texto es una referencia fundamental porque sistematiza conceptos y debates clave del campo, y porque analiza el contexto latinoamericano con sus particularidades propias, diferenciándolo del caso anglosajón o europeo.</p>
+            </div>
+
+            <div class="relato-block">
+              <h2>Argumento central</h2>
+              <p>La raza y la etnicidad son construcciones sociales que varían histórica y geográficamente. En América Latina, el mestizaje ha funcionado como ideología oficial de muchos estados nacionales: en lugar de reconocer la pluralidad, se promovió la mezcla como camino hacia una nación homogénea. Esta ideología no eliminó el racismo — lo enmascaró. Wade muestra cómo la etnicidad puede ser tanto fuente de exclusión como de resistencia e identidad política.</p>
+            </div>
+
+            <div class="relato-block">
+              <h2>Relato ilustrativo</h2>
+              <blockquote>
+                Colombia, México, Brasil — todos son países que se proclamaron mestizos y celebraron la mezcla racial como su identidad nacional. Pero bajo ese discurso de integración, las personas negras e indígenas siguieron siendo discriminadas, marginadas, empobrecidas. El mestizaje prometió igualdad y entregó invisibilización. Wade desnuda esa contradicción con precisión analítica.
+              </blockquote>
+            </div>
+          </div>
+          <div class="content-side">
+            <div class="conceptos-card">
+              <h3>Conceptos clave</h3>
+              <div class="concepto-item">
+                <span class="concepto-tag">Etnicidad</span>
+                <p>Forma de identidad colectiva basada en cultura, historia, lengua o territorio compartidos, usada tanto para la inclusión como para la exclusión social.</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">Mestizaje</span>
+                <p>Ideología y proceso de mezcla racial promovido por estados latinoamericanos como proyecto de nación, que frecuentemente blanquea y excluye.</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">Nación y raza</span>
+                <p>Relación histórica entre los proyectos de construcción de identidades nacionales y las jerarquías raciales que los sostienen.</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">Identidad racial</span>
+                <p>Forma en que las personas y grupos se ubican y son ubicados en categorías raciales, proceso siempre mediado por contextos históricos y de poder.</p>
+              </div>
+            </div>
+            <div class="datos-card">
+              <h3>Datos para recordar</h3>
+              <ul>
+                <li>Peter Wade es un referente global en estudios de raza en Latinoamérica</li>
+                <li>El libro compara casos de Colombia, Brasil, México y otros países</li>
+                <li>El mestizaje como ideología estatal fue dominante en el siglo XX</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TEXTO 7 -->
+      <section class="section" id="section-t7">
+        <div class="texto-header" style="--th-color: #0D2B45;">
+          <span class="texto-header-num">07</span>
+          <div>
+            <h1>Biopólis, necrópolis, blackpolis</h1>
+            <p class="texto-authors">Jaime Amparo Alves</p>
+            <p class="texto-context">Notas para un nuevo léxico político en los análisis socio-espaciales del racismo</p>
+          </div>
+        </div>
+        <div class="content-grid">
+          <div class="content-main">
+            <div class="relato-block">
+              <h2>¿De qué trata?</h2>
+              <p>Jaime Amparo Alves propone un vocabulario conceptual nuevo —biopólis, necrópolis, blackpolis— para analizar cómo el racismo opera en el espacio urbano. El texto dialoga con los conceptos de biopolítica (Foucault) y necropolítica (Mbembe) pero los lleva al contexto específico de las ciudades latinoamericanas con alta presencia afrodescendiente, especialmente en Brasil.</p>
+              <p>La blackpolis no es solo un espacio de muerte y exclusión, sino también de producción de vida, cultura y resistencia por parte de las comunidades negras que la habitan.</p>
+            </div>
+
+            <div class="relato-block">
+              <h2>Argumento central</h2>
+              <p>El espacio urbano está racializado: las ciudades tienen zonas de vida (biopólis) y zonas de muerte (necrópolis), y esta división no es aleatoria — sigue líneas raciales. La blackpolis es el espacio negro urbano: lugar de abandono estatal, violencia y muerte, pero también de cultura, solidaridad y resistencia. Para entender el racismo contemporáneo hay que entender cómo se inscribe en el territorio y en los cuerpos.</p>
+            </div>
+
+            <div class="relato-block">
+              <h2>Relato ilustrativo</h2>
+              <blockquote>
+                En las ciudades latinoamericanas, los mapas del homicidio, el desempleo y la falta de servicios se superponen exactamente con los mapas de la concentración afrodescendiente. No es coincidencia: es el racismo estructural produciendo geografías desiguales. Alves nos da conceptos para ver ese patrón y nombrarlo.
+              </blockquote>
+            </div>
+          </div>
+          <div class="content-side">
+            <div class="conceptos-card">
+              <h3>Conceptos clave</h3>
+              <div class="concepto-item">
+                <span class="concepto-tag">Necropolítica</span>
+                <p>Poder de decidir quién vive y quién muere. Desarrollado por Achille Mbembe para analizar cómo el Estado expone a poblaciones racializadas a la muerte.</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">Biopolítica</span>
+                <p>Poder sobre la vida de las poblaciones: regulación, clasificación y gestión de los cuerpos a escala social, según Foucault.</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">Blackpolis</span>
+                <p>Concepto de Alves para nombrar el espacio negro urbano: zona de exclusión y muerte racial, pero también de resistencia y producción cultural.</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">Racismo socio-espacial</span>
+                <p>Dimensión territorial del racismo: la segregación geográfica de comunidades racializadas y sus efectos en el acceso a bienes y en la exposición a la violencia.</p>
+              </div>
+            </div>
+            <div class="datos-card">
+              <h3>Datos para recordar</h3>
+              <ul>
+                <li>Alves dialoga con Foucault (biopolítica) y Mbembe (necropolítica)</li>
+                <li>El contexto empírico central es Brasil, pero el análisis aplica a toda Latinoamérica</li>
+                <li>El texto propone un nuevo léxico político para el análisis racial urbano</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TEXTO 8 -->
+      <section class="section" id="section-t8">
+        <div class="texto-header" style="--th-color: #D4A017;">
+          <span class="texto-header-num">08</span>
+          <div>
+            <h1>Cuerpos y territorios vaciados</h1>
+            <p class="texto-authors">Aurora Vergara Figueroa</p>
+            <p class="texto-context">Universidad Icesi — ¿En qué consiste el paradigma de la diferencia?</p>
+          </div>
+        </div>
+        <div class="content-grid">
+          <div class="content-main">
+            <div class="relato-block">
+              <h2>¿De qué trata?</h2>
+              <p>Aurora Vergara Figueroa analiza cómo los cuerpos negros y sus territorios han sido "vaciados" — es decir, despojados de significado, de vida, de historia — por los procesos de dominación racial. El texto pregunta: ¿cómo pensamos la diferencia? ¿Qué significa ser "diferente" en un mundo donde la norma es lo blanco, lo occidental, lo masculino?</p>
+              <p>El paradigma de la diferencia no es simplemente reconocer que existimos distintos: es entender que la diferencia ha sido producida históricamente para jerarquizar, para separar lo aceptable de lo abyecto.</p>
+            </div>
+
+            <div class="relato-block">
+              <h2>Argumento central</h2>
+              <p>Los cuerpos negros y los territorios afrodescendientes han sido racialmente vaciados: privados de su historia, su humanidad y su valor por los sistemas de dominación. Este vaciamiento no es simbólico únicamente — tiene efectos materiales: desplazamiento, despojo territorial, violencia. Pensar la diferencia desde una perspectiva crítica implica rechazar tanto la invisibilización como la folclorización de lo afro.</p>
+            </div>
+
+            <div class="relato-block">
+              <h2>Relato ilustrativo</h2>
+              <blockquote>
+                Cuando el Estado llama "baldíos" a territorios que las comunidades negras del Pacífico han habitado por siglos, está aplicando el vaciamiento: borrando la presencia, la historia y los derechos de esas comunidades para poder intervenir, explotar, desplazar. El concepto de Vergara nos ayuda a ver esa operación de borrado y a nombrarla como lo que es: racismo territorial.
+              </blockquote>
+            </div>
+          </div>
+          <div class="content-side">
+            <div class="conceptos-card">
+              <h3>Conceptos clave</h3>
+              <div class="concepto-item">
+                <span class="concepto-tag">Vaciamiento</span>
+                <p>Operación de despojo simbólico y material que priva a los cuerpos y territorios racializados de su historia, humanidad y derechos.</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">Paradigma de la diferencia</span>
+                <p>Marco conceptual que analiza cómo la diferencia racial y cultural es producida y utilizada para jerarquizar a los sujetos y grupos sociales.</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">Cuerpo racializado</span>
+                <p>El cuerpo entendido no como dato biológico sino como superficie en la que se inscriben y reproducen las jerarquías raciales.</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">Despojo territorial</span>
+                <p>Pérdida de tierras y territorios de comunidades étnicas, frecuentemente legitimada por marcos jurídicos y discursos que niegan su presencia histórica.</p>
+              </div>
+            </div>
+            <div class="datos-card">
+              <h3>Datos para recordar</h3>
+              <ul>
+                <li>Aurora Vergara es una académica colombiana y directora del Proyecto Pacífico</li>
+                <li>El texto aplica la teoría crítica racial al contexto colombiano y del Pacífico</li>
+                <li>La categoría de "diferencia" es central en los estudios poscoloniales</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TEXTO 9 -->
+      <section class="section" id="section-t9">
+        <div class="texto-header" style="--th-color: #1B5E7B;">
+          <span class="texto-header-num">09</span>
+          <div>
+            <h1>Colonialidad del poder, eurocentrismo y América Latina</h1>
+            <p class="texto-authors">Aníbal Quijano</p>
+            <p class="texto-context">Texto fundamental del pensamiento decolonial latinoamericano</p>
+          </div>
+        </div>
+        <div class="content-grid">
+          <div class="content-main">
+            <div class="relato-block">
+              <h2>¿De qué trata?</h2>
+              <p>Este es quizás el texto más influyente del pensamiento decolonial latinoamericano. Aníbal Quijano, sociólogo peruano, introduce el concepto de colonialidad del poder: la idea de que el colonialismo no terminó con las independencias del siglo XIX, sino que dejó estructuras de dominación que siguen operando hasta hoy.</p>
+              <p>La colonialidad es diferente del colonialismo (que es un sistema político-económico concreto): es el patrón de poder que sobrevive al colonialismo y organiza la sociedad en torno a jerarquías raciales y epistémicas que favorecen lo europeo y lo occidental.</p>
+            </div>
+
+            <div class="relato-block">
+              <h2>Argumento central</h2>
+              <p>La conquista de América fue el momento en que se inventó la "raza" como categoría de clasificación global. Europa clasificó al mundo en razas y se colocó en la cima de esa jerarquía, legitimando así la dominación. Esa clasificación racial se articuló con el control del trabajo (esclavitud, servidumbre), el conocimiento (eurocentrismo) y el Estado (colonialismo). Todo esto forma el patrón colonial del poder que Quijano llama colonialidad.</p>
+            </div>
+
+            <div class="relato-block">
+              <h2>Relato ilustrativo</h2>
+              <blockquote>
+                Cuando en un aula colombiana se enseña que la historia "universal" empieza en Grecia y Roma, pasa por Europa y llega hasta nosotros — eso es eurocentrismo en acción. Cuando los conocimientos indígenas y afrodescendientes son folclore y no ciencia — eso es colonialidad del saber. Quijano nos da las herramientas para ver esa operación y para imaginar mundos más allá de ella.
+              </blockquote>
+            </div>
+          </div>
+          <div class="content-side">
+            <div class="conceptos-card">
+              <h3>Conceptos clave</h3>
+              <div class="concepto-item">
+                <span class="concepto-tag">Colonialidad del poder</span>
+                <p>Patrón de dominación que sobrevive al colonialismo: clasifica a la humanidad en razas, organiza el trabajo, el saber y la autoridad en favor de los colonizadores.</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">Eurocentrismo</span>
+                <p>Perspectiva que coloca a Europa como centro y modelo de la historia, el conocimiento y el desarrollo, marginando otras tradiciones intelectuales y culturales.</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">Colonialidad del saber</span>
+                <p>Dimensión epistémica de la colonialidad: la jerarquización de los conocimientos que privilegia el pensamiento occidental y descalifica los saberes subalternos.</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">Decolonialidad</span>
+                <p>Proyecto intelectual y político que busca desmantelar las estructuras de poder, saber y ser heredadas del colonialismo europeo.</p>
+              </div>
+            </div>
+            <div class="datos-card">
+              <h3>Datos para recordar</h3>
+              <ul>
+                <li>Quijano es el fundador del concepto de "colonialidad del poder" (1992)</li>
+                <li>El texto es una referencia global en estudios decoloniales y poscoloniales</li>
+                <li>Su argumento conecta 1492 con la desigualdad racial del presente</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TEXTO 10 -->
+      <section class="section" id="section-t10">
+        <div class="texto-header" style="--th-color: #2E8B57;">
+          <span class="texto-header-num">10</span>
+          <div>
+            <h1>Colombia afrodescendiente — Cátedra de Estudios Afrocolombianos</h1>
+            <p class="texto-authors">Ministerio de Educación Nacional</p>
+            <p class="texto-context">Lineamientos curriculares, 2010. Documentos No. 12</p>
+          </div>
+        </div>
+        <div class="content-grid">
+          <div class="content-main">
+            <div class="relato-block">
+              <h2>¿De qué trata?</h2>
+              <p>Este documento del Ministerio de Educación Nacional establece los lineamientos curriculares para la Cátedra de Estudios Afrocolombianos (CEA), una asignatura obligatoria en todas las instituciones educativas de Colombia desde la Ley 70 de 1993 y el Decreto 1122 de 1998. El texto define qué debe enseñarse sobre la historia, cultura, aportes y situación actual de las comunidades afrocolombianas.</p>
+              <p>La CEA es una apuesta política y pedagógica: reconocer la contribución de los pueblos afrodescendientes a la nación colombiana y combatir el racismo desde la educación.</p>
+            </div>
+
+            <div class="relato-block">
+              <h2>Argumento central</h2>
+              <p>La educación colombiana ha sido históricamente eurocéntrica y ha invisibilizado los aportes de las comunidades afrocolombianas. La Cátedra de Estudios Afrocolombianos es un mecanismo de reparación epistémica: introduce en el currículo escolar la historia africana, la esclavización, la resistencia cimarrona, las expresiones culturales afro y la situación actual de estas comunidades. No es solo añadir contenidos — es transformar la manera de ver la historia nacional.</p>
+            </div>
+
+            <div class="relato-block">
+              <h2>Relato ilustrativo</h2>
+              <blockquote>
+                Durante siglos, los libros de texto colombianos contaban la historia del país como la historia de los conquistadores españoles y sus descendientes. Los africanos y sus descendientes aparecían, si acaso, como fuerza de trabajo esclavizada, no como sujetos históricos con nombre, cultura y agencia. La CEA intenta corregir esa deuda — empezando desde el salón de clase.
+              </blockquote>
+            </div>
+          </div>
+          <div class="content-side">
+            <div class="conceptos-card">
+              <h3>Conceptos clave</h3>
+              <div class="concepto-item">
+                <span class="concepto-tag">Cátedra de Estudios Afrocolombianos</span>
+                <p>Asignatura obligatoria en el sistema educativo colombiano, orientada al reconocimiento de la historia y cultura de las comunidades afrodescendientes.</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">Ley 70 de 1993</span>
+                <p>Ley colombiana que reconoce los derechos territoriales, culturales y de participación de las comunidades negras, y establece la Cátedra Afrocolombiana.</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">Reparación epistémica</span>
+                <p>Proceso de corrección de los sesgos y exclusiones del conocimiento hegemónico, incorporando saberes y perspectivas históricamente marginados.</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">Cimarronaje</span>
+                <p>Acto de huida y resistencia de personas esclavizadas que escapaban de las plantaciones y haciendas para fundar comunidades libres (palenques).</p>
+              </div>
+            </div>
+            <div class="datos-card">
+              <h3>Datos para recordar</h3>
+              <ul>
+                <li>La CEA es obligatoria en todo el sistema educativo colombiano</li>
+                <li>San Basilio de Palenque (Bolívar) fue el primer pueblo libre de América</li>
+                <li>Colombia tiene cerca de 4,7 millones de afrodescendientes (censo 2018)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TEXTO 11 -->
+      <section class="section" id="section-t11">
+        <div class="texto-header" style="--th-color: #D4A017;">
+          <span class="texto-header-num">11</span>
+          <div>
+            <h1>Tejiendo de otro modo</h1>
+            <p class="texto-authors">Yuderkys Espinosa Miñoso · Diana Gómez Correal · Karina Ochoa Muñoz (eds.)</p>
+            <p class="texto-context">Feminismo, epistemología y apuestas descoloniales en Abya Yala. Universidad del Cauca, 2014</p>
+          </div>
+        </div>
+        <div class="content-grid">
+          <div class="content-main">
+            <div class="relato-block">
+              <h2>¿De qué trata?</h2>
+              <p>Este libro colectivo reúne textos de feministas latinoamericanas y caribeñas que proponen un feminismo radicalmente diferente al feminismo hegemónico occidental: un feminismo descolonial que toma en serio la raza, la clase y la colonialidad como dimensiones inseparables del género.</p>
+              <p>Abya Yala es el nombre con que el pueblo Kuna (Panamá y Colombia) llama al continente americano —"tierra en plena madurez"— usado por movimientos indígenas como alternativa a "América" (que remite a Américo Vespucio, un europeo).</p>
+            </div>
+
+            <div class="relato-block">
+              <h2>Argumento central</h2>
+              <p>El feminismo hegemónico occidental habla de "las mujeres" como categoría universal, pero esa categoría está marcada racialmente: es la mujer blanca, de clase media, occidental la que ha servido como norma. Las mujeres negras, indígenas y campesinas de Latinoamérica tienen experiencias y saberes que el feminismo occidental no puede capturar. El feminismo descolonial propone tejer de otro modo: desde los márgenes, desde los cuerpos racializados, desde las epistemologías propias.</p>
+            </div>
+
+            <div class="relato-block">
+              <h2>Relato ilustrativo</h2>
+              <blockquote>
+                Una mujer nasa del Cauca que defiende su territorio no está simplemente haciendo "feminismo" ni simplemente haciendo "política indígena" — está haciendo ambas cosas a la vez y ninguna de las dos completamente. El feminismo descolonial nos da lenguaje para entender esa experiencia sin reducirla ni a uno ni a otro marco.
+              </blockquote>
+            </div>
+          </div>
+          <div class="content-side">
+            <div class="conceptos-card">
+              <h3>Conceptos clave</h3>
+              <div class="concepto-item">
+                <span class="concepto-tag">Feminismo descolonial</span>
+                <p>Corriente feminista que critica el eurocentrismo del feminismo hegemónico e incorpora la raza, la colonialidad y la clase como ejes centrales del análisis.</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">Abya Yala</span>
+                <p>Nombre kuna para el continente americano, usado por movimientos indígenas como acto de descolonización lingüística frente al nombre "América".</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">Epistemología descolonial</span>
+                <p>Propuesta de producción de conocimiento desde los márgenes: saberes propios de comunidades racializadas y subalternizadas que desafían al canon occidental.</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">Interseccionalidad crítica</span>
+                <p>Análisis de cómo raza, género, clase y colonialidad se articulan produciendo experiencias específicas de opresión y posibilidades de resistencia.</p>
+              </div>
+            </div>
+            <div class="datos-card">
+              <h3>Datos para recordar</h3>
+              <ul>
+                <li>El libro es una antología colectiva de feministas latinoamericanas y caribeñas</li>
+                <li>Abya Yala: nombre kuna del continente — "tierra en plena madurez"</li>
+                <li>Publicado por la Editorial Universidad del Cauca (Popayán, 2014)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TEXTO 12 -->
+      <section class="section" id="section-t12">
+        <div class="texto-header" style="--th-color: #2E8B57;">
+          <span class="texto-header-num">12</span>
+          <div>
+            <h1>Liberación de la madre tierra</h1>
+            <p class="texto-authors">Bibiana Vargas Reyes · Rosaura Ariza Santamaría</p>
+            <p class="texto-context">Entre la legitimidad y los usos sociales de la ilegalidad. Revista Socio-Jurídicos, 2019</p>
+          </div>
+        </div>
+        <div class="content-grid">
+          <div class="content-main">
+            <div class="relato-block">
+              <h2>¿De qué trata?</h2>
+              <p>Este artículo analiza la práctica política conocida como Liberación de la madre tierra, llevada a cabo por comunidades indígenas del Cauca —principalmente el pueblo Nasa— como estrategia de recuperación territorial. La "liberación" consiste en la ocupación y apropiación colectiva de tierras que los indígenas consideran propias, aunque legalmente estén en manos de terratenientes o empresas.</p>
+              <p>Las autoras analizan esta práctica en la tensión entre su legitimidad política y cultural para las comunidades, y su ilegalidad según el marco jurídico colombiano.</p>
+            </div>
+
+            <div class="relato-block">
+              <h2>Argumento central</h2>
+              <p>La liberación de la madre tierra es un acto que desafía el orden jurídico establecido, pero se fundamenta en una legitimidad histórica, cultural y política profunda para los pueblos indígenas. Las autoras muestran cómo las comunidades indígenas usan la ilegalidad estratégicamente —como herramienta de presión y de visibilización— en un contexto donde el Estado no ha garantizado sus derechos territoriales. La tierra no es solo propiedad: es territorio, vida, identidad.</p>
+            </div>
+
+            <div class="relato-block">
+              <h2>Relato ilustrativo</h2>
+              <blockquote>
+                Para el pueblo Nasa, la tierra no es un bien que se compra y se vende: es la madre que los sostiene, el territorio que los constituye como comunidad. Cuando ocupan una hacienda que estuvo en su territorio ancestral, no están "invadiendo" — están liberando lo que siempre fue suyo. El texto nos invita a entender esa lógica sin reducirla a la legalidad del Estado.
+              </blockquote>
+            </div>
+          </div>
+          <div class="content-side">
+            <div class="conceptos-card">
+              <h3>Conceptos clave</h3>
+              <div class="concepto-item">
+                <span class="concepto-tag">Liberación de la madre tierra</span>
+                <p>Práctica política del pueblo Nasa que consiste en la recuperación colectiva de tierras consideradas territorios ancestrales, por vías directas y no institucionales.</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">Legitimidad vs. legalidad</span>
+                <p>Distinción entre lo que una comunidad considera justo y válido (legitimidad) y lo que el Estado reconoce como legal dentro de su ordenamiento jurídico.</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">Territorio ancestral</span>
+                <p>Espacio geográfico habitado, nombrado y cuidado históricamente por un pueblo indígena, cuya relación con él precede al Estado-nación.</p>
+              </div>
+              <div class="concepto-item">
+                <span class="concepto-tag">Acción directa</span>
+                <p>Estrategia política que actúa directamente sobre las condiciones de vida, sin intermediación del Estado o instituciones formales, para producir cambios inmediatos.</p>
+              </div>
+            </div>
+            <div class="datos-card">
+              <h3>Datos para recordar</h3>
+              <ul>
+                <li>El pueblo Nasa del Cauca lidera este proceso desde los años 70</li>
+                <li>Conecta con la Minga y con el CRIC (texto 05 del curso)</li>
+                <li>El debate legalidad/legitimidad es central en el derecho crítico latinoamericano</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- GLOSARIO -->
+      <section class="section" id="section-glosario">
+        <div class="texto-header" style="--th-color: #1B5E7B;">
+          <span class="texto-header-num" style="font-size:1.5rem;">&#9670;</span>
+          <div>
+            <h1>Glosario de conceptos</h1>
+            <p class="texto-context">Todos los conceptos clave del curso en un solo lugar</p>
+          </div>
+        </div>
+
+        <div class="glosario-search-wrap">
+          <input type="text" id="glosarioSearch" class="glosario-search" placeholder="Buscar concepto..." oninput="filterGlosario()" />
+        </div>
+
+        <div class="glosario-grid" id="glosarioGrid">
+          <!-- populated by JS -->
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <div class="overlay" id="overlay" onclick="closeSidebar()"></div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
